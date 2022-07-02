@@ -1,0 +1,2 @@
+this the way to use prompt
+let username = prompt("What is your username?")

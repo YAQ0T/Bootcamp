@@ -1,0 +1,15 @@
+#example {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin-left: 100px;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+#example1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-left: 100px;
+  padding-rights: 100px;
+}

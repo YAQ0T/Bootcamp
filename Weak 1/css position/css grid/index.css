@@ -1,0 +1,33 @@
+#container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "s s h h m m"
+    "s s h h m m"
+    "s s f f m m"
+    "s s f f m m"
+    "s s f f m m";
+  grid-gap: 10px;
+}
+
+.head {
+  grid-area: h;
+  background-color: aqua;
+}
+
+.side-nav {
+  grid-area: s;
+  background-color: bisque;
+}
+
+.main {
+  grid-area: m;
+  background-color: aquamarine;
+}
+
+.foot {
+  grid-area: f;
+  background-color: aliceblue;
+}
