@@ -1,0 +1,47 @@
+.container {
+  border: 5px black solid;
+  grid-template-columns: 1fr 3fr;
+  height: 700px;
+  width: 750px;
+  grid-template-areas: "f m";
+  display: grid;
+}
+.frinds {
+  display: grid;
+  grid-area: "f";
+  background-color: blueviolet;
+}
+.massageArea {
+  display: grid;
+  grid-area: "m";
+  background-color: aliceblue;
+
+  grid-template-rows: 15fr 1fr;
+}
+.send {
+  display: grid;
+  grid-area: "send";
+}
+.send {
+  display: grid;
+  grid-area: "massage";
+  grid-template-columns: 5fr 1fr;
+}
+.massage {
+  display: grid;
+}
+.massage p {
+  margin: 20px;
+}
+
+#send {
+  display: grid;
+
+  justify-content: end;
+}
+/* #button {
+  display: grid;
+}
+#input {
+  display: grid;
+} */

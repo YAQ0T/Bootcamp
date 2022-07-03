@@ -7,10 +7,12 @@ function addElemnt() {
   let Enter = "enterColor(" + i + ")";
   let leave = "leaveColor(" + i + ")";
   newDiv.setAttribute("id", i);
-  newDiv.style.backgroundColor = "blue";
-  newDiv.style.width = "100px";
-  newDiv.style.height = "100px";
-
+  newDiv.setAttribute("class", "box");
+  // newDiv.style.backgroundColor = "blue";
+  // newDiv.style.width = "100px";
+  // newDiv.style.height = "100px";
+  // newDiv.style.display = "inline-block";
+  // newDiv.style.marginRight = "10px";
   newDiv.setAttribute("onmouseenter", Enter);
   newDiv.setAttribute("onmouseleave", leave);
   i = parseInt(i, 10);
