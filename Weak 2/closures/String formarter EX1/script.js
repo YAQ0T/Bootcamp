@@ -21,4 +21,4 @@ let StringFormatter = function () {
 const formatter = StringFormatter();
 
 formatter.capitalizeFirst("dorothy"); //should print Dorothy
-formatter.skewerCase("blue box"); //should print blue-box
+formatter.skewerCase("blue box  "); //should print blue-box

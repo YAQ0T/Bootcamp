@@ -1,0 +1,38 @@
+{
+  "name": "animals",
+
+  "animals": [
+    {
+      "name": "Cow",
+      "weightInfo": { "weight": 150, "unit": "kilograms" },
+      "animalLive": ["outside"],
+      "endangered": false,
+      "food": ["vigatbles", "grass"],
+      "deliciousScale": 3
+    },
+    {
+      "name": "Elephant",
+      "weightInfo": { "weight": 500, "unit": "kilograms" },
+      "animalLive": ["outside"],
+      "endangered": false,
+      "food": ["vigatbles", "grass"],
+      "deliciousScale": 3
+    },
+    {
+      "name": "Gray Wolf",
+      "weightInfo": { "weight": 80, "unit": "kilograms" },
+      "animalLive": ["outside"],
+      "endangered": true,
+      "food": ["meet"],
+      "deliciousScale": 5
+    },
+    {
+      "name": "Squirrel",
+      "weightInfo": { "weight": 6, "unit": "kilograms" },
+      "animalLive": ["outside"],
+      "endangered": false,
+      "food": ["insects", "small vertebrates"],
+      "deliciousScale": 2
+    }
+  ]
+}
