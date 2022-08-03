@@ -60,27 +60,19 @@ Example:
 3 is followed by 4, and 4 is followed by 3
 */
 
-function followedNumbers(arrOfNum) {
-  let followNumbers = [];
-  for (let i = 0; i < arrOfNum.length; i++) {
-    for (let j = 1; j < arrOfNum.length; j++) {
-      if (
-        arrOfNum[i] - 1 == arrOfNum[j] ||
-        (arrOfNum[i] + 1 == arrOfNum[j] &&
-          !(
-            followNumbers.some((num) => (num = arrOfNum[i])) ||
-            followNumbers.some((num) => (num = arrOfNum[j]))
-          ))
-      ) {
-        followNumbers.push(arrOfNum[i]);
-        followNumbers.push(arrOfNum[j]);
-      }
-    }
-  }
-  console.log(followNumbers);
+let example = [4, 1, 3, 5];
+let folowedNumber = [];
+const exampleSet = new Set();
+for (i of example) {
+  exampleSet.add(i);
 }
-let A = [2, 5, 9, 8, 14, 13, 19, 18, 66, 67];
-followedNumbers(A);
+
+for (i of example) {
+  if (exampleSet.has(i - 1) || exampleSet.has(i + 1)) {
+    folowedNumber.push(i);
+  }
+}
+console.log(folowedNumber);
 //-----------------------------
 /*
 Duplicate an Array
